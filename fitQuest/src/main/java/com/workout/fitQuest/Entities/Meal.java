@@ -1,3 +1,5 @@
+package com.workout.fitQuest.Entities;
+
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.time.LocalDate;
@@ -14,10 +16,10 @@ public class Meal {
 
     private String mealName;
 
-    @Enumerated(new EnumType(STRING))
+    @Enumerated(EnumType.STRING)
     private String mealType;
 
-    private localDate date;
+    private LocalDate mealDate;
 
     private Integer calories;
     private Float protein;

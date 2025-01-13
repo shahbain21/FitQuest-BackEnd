@@ -1,17 +1,23 @@
+package com.workout.fitQuest.Entities;
+
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-public class ExerciseName {
+public class ExerciseDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
-
     @ManyToOne
-    @JoinColumn(name = "category_id", nullable = false)
-    private ExerciseCategory category;
+    @JoinColumn(name = "exercise_id", nullable = false)
+    private Exercise exercise;
+
+    private Integer sets;
+    private Integer reps;
+    private Float weight;
+    private Integer duration;
+    private Integer caloriesBurned;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
