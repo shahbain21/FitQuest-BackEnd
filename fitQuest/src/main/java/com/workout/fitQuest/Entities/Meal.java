@@ -17,7 +17,7 @@ public class Meal {
     private String mealName;
 
     @Enumerated(EnumType.STRING)
-    private String mealType;
+    private MealType mealType;
 
     private LocalDate mealDate;
 
