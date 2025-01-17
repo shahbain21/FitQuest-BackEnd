@@ -3,7 +3,9 @@ package com.workout.fitQuest.Entities;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.time.LocalDate;
+import lombok.Data;
 
+@Data
 @Entity
 public class Meal {
     @Id
