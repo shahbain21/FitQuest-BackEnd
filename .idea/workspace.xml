@@ -4,33 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="740696d0-3f21-4e33-b332-9540eaed3a89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/User.java" afterDir="false" />
+    <list default="true" id="740696d0-3f21-4e33-b332-9540eaed3a89" name="Changes" comment="got rid of lombok">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shahbain21"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shahbain21&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shahbain21/FitQuest-BackEnd.git",
-    "accountId": "8e95b0ee-b75a-4460-b7da-7eab2cdbd0c0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shahbain21/FitQuest-BackEnd.git&quot;,
+    &quot;accountId&quot;: &quot;8e95b0ee-b75a-4460-b7da-7eab2cdbd0c0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sHMoUCnJ9tmV2ekpHCMB9ovZBK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,9 +54,14 @@
   "keyToString": {
     "Maven.fitQuest [clean,install].executor": "Run",
     "Maven.fitQuest [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.FitQuestApplication.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.FitQuestApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -56,6 +75,8 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="FitQuestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="fitQuest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.workout.fitQuest.FitQuestApplication" />
@@ -67,8 +88,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -80,11 +101,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738108221734</updated>
-      <workItem from="1738108223022" duration="839000" />
+      <workItem from="1738108223022" duration="1430000" />
+      <workItem from="1738460863779" duration="856000" />
+      <workItem from="1738528006925" duration="199000" />
+      <workItem from="1738528228284" duration="197000" />
+      <workItem from="1738528444749" duration="52000" />
+      <workItem from="1738607980519" duration="1955000" />
+      <workItem from="1738790014621" duration="2168000" />
+      <workItem from="1738881152730" duration="1630000" />
     </task>
+    <task id="LOCAL-00001" summary="got rid of lombok">
+      <option name="closed" value="true" />
+      <created>1738109276023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738109276024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="got rid of lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="got rid of lombok" />
   </component>
 </project>

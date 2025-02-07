@@ -14,20 +14,24 @@ public class MealService {
         this.mealRepository = mealRepository;
     }
 
-    public List<Meal> getAllMealsForUser(Long userId) {
-        return mealRepository.findByUserId(userId);
+    public List<Meal> getAllMeals() {
+        return mealRepository.findAll();
     }
 
-    public List<Meal> getMealsByType(Meal.MealType mealType) {
-        return mealRepository.findByMealType(mealType);
-    }
-
-    public List<Meal> getMealsWithinCalorieRange(int minCalories, int maxCalories) {
-        return mealRepository.findMealsWithinCalorieRange(minCalories, maxCalories);
-    }
-
-    public List<Meal> getMealsByUserAndDate(Long userId, LocalDate mealDate) {
-        return mealRepository.findMealsByUserAndDate(userId, mealDate);
+    public Meal updateMeal(Long mealId, Meal updatedMeal) {
+        return mealRepository.findById(mealId)
+                .map(existingMeal -> {
+                    existingMeal.setMealName(updatedMeal.getMealName());
+                    existingMeal.setMealType(updatedMeal.getMealType());
+                    existingMeal.setCalories(updatedMeal.getCalories());
+                    existingMeal.setProtein(updatedMeal.getProtein());
+                    existingMeal.setFats(updatedMeal.getFats());
+                    existingMeal.setCarbs(updatedMeal.getCarbs());
+                    existingMeal.setMealType(updatedMeal.getMealType());
+                    existingMeal.setMealDate(updatedMeal.getMealDate());
+                    return mealRepository.save(existingMeal);
+                })
+                .orElseThrow(() -> new RuntimeException("Meal not found"));
     }
 
     public Meal addMeal(Meal meal) {
@@ -39,3 +43,18 @@ public class MealService {
         mealRepository.deleteById(mealId);
     }
 }
+//public List<Meal> getAllMealsForUser(Long userId) {
+//        return mealRepository.findByUserId(userId);
+//    }
+//
+//    public List<Meal> getMealsByType(Meal.MealType mealType) {
+//        return mealRepository.findByMealType(mealType);
+//    }
+//
+//    public List<Meal> getMealsWithinCalorieRange(int minCalories, int maxCalories) {
+//        return mealRepository.findMealsWithinCalorieRange(minCalories, maxCalories);
+//    }
+//
+//    public List<Meal> getMealsByUserAndDate(Long userId, LocalDate mealDate) {
+//        return mealRepository.findMealsByUserAndDate(userId, mealDate);
+//    }

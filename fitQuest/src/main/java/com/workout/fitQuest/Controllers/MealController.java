@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/meals")
+@CrossOrigin(origins = "http://localhost:4200")
 public class MealController {
     private final MealService mealService;
 
@@ -15,26 +16,15 @@ public class MealController {
         this.mealService = mealService;
     }
 
-    @GetMapping("/user/{userId}")
-    public List<Meal> getAllMealsForUser(@PathVariable Long userId) {
-        return mealService.getAllMealsForUser(userId);
+    @GetMapping
+    public List<Meal> getAllMeals() {
+        return mealService.getAllMeals();
     }
 
-    @GetMapping("/type/{mealType}")
-    public List<Meal> getMealsByType(@PathVariable Meal.MealType mealType) {
-        return mealService.getMealsByType(mealType);
+    @PutMapping("/{mealId}")
+    public Meal updateMeal(@PathVariable Long mealId, @RequestBody Meal meal) {
+        return mealService.updateMeal(mealId, meal);
     }
-
-    @GetMapping("/calories")
-    public List<Meal> getMealsWithinCalorieRange(@RequestParam int minCalories, @RequestParam int maxCalories) {
-        return mealService.getMealsWithinCalorieRange(minCalories, maxCalories);
-    }
-
-    @GetMapping("/user/{userId}/date/{mealDate}")
-    public List<Meal> getMealsByUserAndDate(@PathVariable Long userId, @PathVariable LocalDate mealDate) {
-        return mealService.getMealsByUserAndDate(userId, mealDate);
-    }
-
     @PostMapping
     public Meal addMeal(@RequestBody Meal meal) {
         return mealService.addMeal(meal);
@@ -46,3 +36,22 @@ public class MealController {
     }
 }
 
+//    @GetMapping("/user/{userId}")
+//    public List<Meal> getAllMealsForUser(@PathVariable Long userId) {
+//        return mealService.getAllMealsForUser(userId);
+//    }
+
+//    @GetMapping("/type/{mealType}")
+//    public List<Meal> getMealsByType(@PathVariable Meal.MealType mealType) {
+//        return mealService.getMealsByType(mealType);
+//    }
+//
+//    @GetMapping("/calories")
+//    public List<Meal> getMealsWithinCalorieRange(@RequestParam int minCalories, @RequestParam int maxCalories) {
+//        return mealService.getMealsWithinCalorieRange(minCalories, maxCalories);
+//    }
+//
+//    @GetMapping("/user/{userId}/date/{mealDate}")
+//    public List<Meal> getMealsByUserAndDate(@PathVariable Long userId, @PathVariable LocalDate mealDate) {
+//        return mealService.getMealsByUserAndDate(userId, mealDate);
+//    }
