@@ -5,30 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="740696d0-3f21-4e33-b332-9540eaed3a89" name="Changes" comment="got rid of lombok">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/MealType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseSetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/MealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/controller/ExerciseCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/controller/ExerciseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/controller/ExerciseNameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/AddExerciseSetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/CreateCategoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/CreateExerciseNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/CreateExerciseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/CreateMealRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/request/UpdateMealRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/ExerciseCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/ExerciseNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/ExerciseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/ExerciseSetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/MealResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/dto/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/exception/UnauthorizedAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/ExerciseCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/ExerciseNameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/ExerciseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseName.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/controller/MealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/MealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/WebConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fitQuest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,35 +82,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.fitQuest [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.fitQuest [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.FitQuestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.fitQuest [clean,install].executor": "Run",
+    "Maven.fitQuest [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.FitQuestApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="FitQuestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -154,6 +164,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="got rid of lombok" />
