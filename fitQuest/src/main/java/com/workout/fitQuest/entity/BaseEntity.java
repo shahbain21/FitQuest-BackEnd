@@ -1,19 +1,19 @@
-package com.workout.fitQuest.Entities;
+package com.workout.fitQuest.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.time.LocalDateTime;
 
-@Entity
-public class ExerciseName {
+@MappedSuperclass
+@Getter
+@Setter
+public abstract class BaseEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String name;
-
-    @ManyToOne
-    @JoinColumn(name = "category_id", nullable = false)
-    private ExerciseCategory category;
 
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
@@ -24,11 +24,11 @@ public class ExerciseName {
     @PrePersist
     protected void onCreate() {
         this.createdAt = LocalDateTime.now();
+        this.updatedAt = LocalDateTime.now();
     }
 
     @PreUpdate
     protected void onUpdate() {
         this.updatedAt = LocalDateTime.now();
     }
-
 }

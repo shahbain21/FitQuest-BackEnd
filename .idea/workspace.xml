@@ -5,15 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="740696d0-3f21-4e33-b332-9540eaed3a89" name="Changes" comment="got rid of lombok">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/MealType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/ExerciseSetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/MealRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/MealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/ExerciseName.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/ExerciseName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/MealRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Repositorities/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/MealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/Services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitQuest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fitQuest/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +55,16 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/shahbain21/FitQuest-BackEnd.git&quot;,
-    &quot;accountId&quot;: &quot;8e95b0ee-b75a-4460-b7da-7eab2cdbd0c0&quot;
+    &quot;accountId&quot;: &quot;46e26272-4bae-453b-ae4c-1aa1981e4fe3&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/fitQuest/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitQuest/src/main/java/com/workout/fitQuest/entity/BaseEntity.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,29 +73,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.fitQuest [clean,install].executor": "Run",
-    "Maven.fitQuest [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.FitQuestApplication.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.fitQuest [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.fitQuest [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FitQuestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FitQuestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -88,8 +117,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -109,6 +137,9 @@
       <workItem from="1738607980519" duration="1955000" />
       <workItem from="1738790014621" duration="2168000" />
       <workItem from="1738881152730" duration="1630000" />
+      <workItem from="1761309672455" duration="8806000" />
+      <workItem from="1761913416187" duration="4256000" />
+      <workItem from="1774205470291" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="got rid of lombok">
       <option name="closed" value="true" />

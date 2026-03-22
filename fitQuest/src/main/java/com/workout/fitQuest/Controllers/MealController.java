@@ -1,9 +1,9 @@
 package com.workout.fitQuest.Controllers;
 
-import com.workout.fitQuest.Entities.Meal;
+import com.workout.fitQuest.entity.Meal;
 import com.workout.fitQuest.Services.MealService;
 import org.springframework.web.bind.annotation.*;
-import java.time.LocalDate;
+
 import java.util.List;
 
 @RestController

@@ -1,7 +1,7 @@
 package com.workout.fitQuest.Services;
 
-import com.workout.fitQuest.Entities.User;
-import com.workout.fitQuest.Repositorities.UserRepository;
+import com.workout.fitQuest.entity.User;
+import com.workout.fitQuest.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;

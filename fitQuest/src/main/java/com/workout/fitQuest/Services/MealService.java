@@ -1,9 +1,9 @@
 package com.workout.fitQuest.Services;
-import com.workout.fitQuest.Entities.Meal;
-import com.workout.fitQuest.Repositorities.MealRepository;
+import com.workout.fitQuest.entity.Meal;
+import com.workout.fitQuest.repository.MealRepository;
 import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
-import java.time.LocalDate;
+
 import java.util.List;
 
 @Service
